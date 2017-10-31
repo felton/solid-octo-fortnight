@@ -1,0 +1,4 @@
+language: swift
+xcode_project: BlahApp/BlahApp.xcodeproj
+xcode_scheme: BlahApp
+osx_image: xcode8.3
