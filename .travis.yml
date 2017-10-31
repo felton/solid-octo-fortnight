@@ -1,5 +1,4 @@
-os: osx
-language: swift
+language: objective-c
 xcode_project: BlahApp/BlahApp.xcodeproj
 xcode_scheme: BlahAppTests
 osx_image: xcode8.3
