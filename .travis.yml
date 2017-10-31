@@ -1,5 +1,6 @@
 language: objective-c
 osx_image: xcode8.3
-install:
-  - rvm get stable
+rvm: 2.2
+# install:
+#   - rvm get stable
 script: travis_retry xcodebuild -project BlahApp.xcodeproj -scheme BlahApp -destination "platform=iOS Simulator,name=iPhone SE,OS=10.2" build test CODE_SIGNING_REQUIRED=NO | xcpretty -c
