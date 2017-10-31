@@ -1,4 +1,4 @@
 language: objective-c
-xcode_project: BlahApp/BlahApp.xcodeproj
-xcode_scheme: BlahApp
 osx_image: xcode8.3
+
+script: xcodebuild clean && xcodebuild build -sdk iphonesimulator10.1 -project BlahApp.xcodeproj -scheme BlahApp CODE_SIGNING_REQUIRED=NO
