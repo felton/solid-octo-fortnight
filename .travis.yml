@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode8.3
 
-script: xcodebuild clean test -project BlahApp.xcodeproj -scheme BlahApp -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2" CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean test -project BlahApp.xcodeproj -scheme BlahApp -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2" CODE_SIGNING_REQUIRED=NO -quiet
